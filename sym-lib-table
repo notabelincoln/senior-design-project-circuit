@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name senior-design-project-circuit-rescue)(type Legacy)(uri ${KIPRJMOD}/senior-design-project-circuit-rescue.lib)(options "")(descr ""))
+)
