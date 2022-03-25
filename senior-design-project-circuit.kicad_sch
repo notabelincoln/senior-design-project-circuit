@@ -9,7 +9,6 @@
     (date "2022-03-03")
     (rev "1")
     (comment 1 "Authors: Emily Currie and Abe Jordan")
-    (comment 2 "MicroSD SPI layout taken from Adafruit")
   )
 
   (lib_symbols
@@ -3320,6 +3319,19 @@
   (wire (pts (xy 30.48 120.65) (xy 30.48 148.59))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid fea7c5d1-76d6-41a0-b5e3-29889dbb8ce0)
+  )
+
+  (text "STM32NUCLEO Header" (at 116.84 134.62 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5a7c0103-c343-4ba6-8860-bcbe4a24c314)
+  )
+  (text "SparkFun AS7265X Header" (at 27.94 35.56 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid de580cd5-48d0-4d42-b9c9-33904a9558a5)
+  )
+  (text "LCD Header" (at 226.06 38.1 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f019505d-1aea-432a-b327-83b31aef7403)
   )
 
   (label "LCD_DB3" (at 219.71 76.2 180)
